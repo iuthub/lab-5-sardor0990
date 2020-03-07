@@ -15,37 +15,46 @@
 		<hr />
 		
 		<h2>Give Us Your Money</h2>
-		<form action="sucker.php" method="post">
+		<form action="form_display.php" method="post">
+		<dl>
 			<dt>Name</dt>
 			<dd>
-				<input type="text" name="name">
+				<input type="text" name="fname">
 			</dd>
 			
 			<dt>Section</dt>
 			<dd>
-				<select name="section">
-					<option disabled selected value> (Select a section)</option>
-					<option>MA</option> 
-					<option>MB</option>
-					<option>MC</option> 
-					<option>MD</option>
-					<option>ME</option> 
-					<option>MF</option>
-					<option>MH</option>
+				<select name="54">
+					<option value="asd">asd</option>
+					<option value="asdsd">asd</option>
 				</select>
 			</dd>
+			
 			<dt>Credit Card</dt>
 			<dd>
-				<input type="text" name="cardnumber"/><br/>
-				<input type="radio" name="cc" value="visa"/>
-				<label for="visa">Visa</label>
-				<input type="radio" name="cc" value="mastercard"/>
-				<label for="mastercard">MasterCard</label><br/>
-			</d>
+				<input type="text" name="bas">
+				<br>
+				<input type="radio" name="1">
+				visa
+				<input type="radio" name="2">
+				MAster CArd
+			</dd>
 		</dl>
+		<input type="submit" name="xzc" value="I am a giant sucker." height="20px" width="500px">
+	</form>
+		
 		<div>
-			<input type="submit" name="submit" value="I am a giant sucker."/>
+			
 		</div>
-		</form>
 	</body>
 </html>
+<!-- <form action="" method="post">
+	<input type="text" name="fname">
+	<select name="">
+		<option value="vlolo">Volvlo</option>
+		<option value="bmw">Vasd</option>
+		<option value="audi">ausd</option>
+	</select>
+	<input type="submit">
+</form> -->
+<!--  -->
